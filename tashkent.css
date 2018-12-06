@@ -9,11 +9,15 @@ body{
 ::-moz-selection{
 	background: lightblue;
 }
+.embed-responsive{
+	position: static;
+	width: 100%;
+}
 #header{
 	background: lightblue;
 	height: 200px;
 	text-align: center;
-	position: fixed;
+	position: relative;
 	z-index: 1;
 	width: 100%;
 	top:0;
